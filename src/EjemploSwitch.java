@@ -22,7 +22,7 @@ public class EjemploSwitch {
 
             System.out.println("Digite el primer numero");
             numUno  = cmd.nextDouble();
-            System.out.println("Digite el segundo numero");
+            System.out.println("Digite el segundo numero, vamos a ver el cambio ");
             numDos  = cmd.nextDouble();
         }catch(InputMismatchException error){
             System.out.println("Elige una opcion valida bastardo, te equivocaste, son numeros");
